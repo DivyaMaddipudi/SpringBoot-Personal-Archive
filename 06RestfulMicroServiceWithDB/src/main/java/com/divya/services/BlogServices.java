@@ -32,41 +32,21 @@ public class BlogServices {
 		return list;
 	}
 	
-	/*
 	public Blog getBlog(int id) {
-		for(Blog blog:blogs) {
-			if(blog.getBlogId() == id) {
-				return blog;
-			}
-		}
-		return null;
+		return repo.findById(id).get();
 	}
 
 	public void addBlog(Blog blog) {
-		blogs.add(blog);
+		repo.save(blog);
 		
 	}
 
-	public void updateBlog(Blog blog, int id) {
-		for(int i=0;i<blogs.size();i++) {
-			Blog tempBlog = blogs.get(i);
-			if(tempBlog.getBlogId() == id) {
-				blogs.set(i, blog);
-				return;
-			}
-		}
+	public void updateBlog(Blog blog) {
+		repo.save(blog);
 		
 	}
 
 	public void deleteBlog(int id) {
-		for(int i=0;i<blogs.size();i++) {
-			Blog tempBlog = blogs.get(i);
-			if(tempBlog.getBlogId() == id) {
-				blogs.remove(i);
-				return;
-			}
+		repo.deleteById(id);
 		}
-		
-	}
-	*/
 }

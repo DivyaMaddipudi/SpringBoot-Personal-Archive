@@ -24,25 +24,24 @@ public class BlogController {
 		
 	}
 	
-	/*
 	@RequestMapping("/blogs/{id}")
 	public Blog getBlog(@PathVariable int id) {
-		return new BlogServices().getBlog(id);
+		return service.getBlog(id);
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/blogs")
 	public void addBlog(@RequestBody Blog blog) {
-		new BlogServices().addBlog(blog);
+		 service.addBlog(blog);
 	}
 	
 	@RequestMapping(method = RequestMethod.PUT, value = "/blogs/{id}")
-	public void updateBlog(@RequestBody Blog blog, @PathVariable int id) {
-		new BlogServices().updateBlog(blog, id);
+	public void updateBlog(@RequestBody Blog blog) {
+		service.updateBlog(blog);
 	}
 
 	@RequestMapping(method = RequestMethod.DELETE, value = "/blogs/{id}")
 	public void deleteBlog(@PathVariable int id) {
-		new BlogServices().deleteBlog(id);
+		service.deleteBlog(id);
 	}
-	*/
+	
 }
