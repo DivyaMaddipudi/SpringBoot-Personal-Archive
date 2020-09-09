@@ -2,6 +2,7 @@ package com.divya.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,12 +15,16 @@ import com.divya.services.BlogServices;
 @RestController
 public class BlogController {
 	
+	@Autowired
+	private BlogServices service;
+	
 	@RequestMapping("/blogs")
 	public List<Blog> getBlogs() {
-		return new BlogServices().getBlogs();
+		return service.getBlogs();
 		
 	}
 	
+	/*
 	@RequestMapping("/blogs/{id}")
 	public Blog getBlog(@PathVariable int id) {
 		return new BlogServices().getBlog(id);
@@ -39,4 +44,5 @@ public class BlogController {
 	public void deleteBlog(@PathVariable int id) {
 		new BlogServices().deleteBlog(id);
 	}
+	*/
 }

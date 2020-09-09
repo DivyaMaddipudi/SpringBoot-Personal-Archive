@@ -19,6 +19,10 @@ public class Blog {
 	@Column(name ="body")
 	String body;
 	
+	public Blog() {
+	
+	}
+
 	public Blog(int blogId, String title, String body) {
 		this.blogId = blogId;
 		this.title = title;
