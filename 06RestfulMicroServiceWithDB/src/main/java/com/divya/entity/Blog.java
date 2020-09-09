@@ -1,9 +1,22 @@
 package com.divya.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "blogs")
 public class Blog {
 	
+	@Id
+	@Column(name = "id")
 	int blogId;
+	
+	@Column(name = "title")
 	String title;
+	
+	@Column(name ="body")
 	String body;
 	
 	public Blog(int blogId, String title, String body) {
