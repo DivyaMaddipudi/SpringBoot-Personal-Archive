@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/main/java/org/divya/client/ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/test/java/org/divya/client/ClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/SamsungApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/model/Devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Samsung2/src/test/java/org/divya/SamsungApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,21 +89,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599764443256" />
-    <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599764519418">
+    <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599767609647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599764519418" />
-    <state width="648" height="178" key="GridCell.Tab.0.center" timestamp="1599764519417">
+    <state width="648" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
+    <state width="648" height="178" key="GridCell.Tab.0.center" timestamp="1599767609647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
-    <state width="648" height="178" key="GridCell.Tab.0.left" timestamp="1599764519417">
+    <state width="648" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
+    <state width="648" height="178" key="GridCell.Tab.0.left" timestamp="1599767609647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
-    <state width="648" height="178" key="GridCell.Tab.0.right" timestamp="1599764519417">
+    <state width="648" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
+    <state width="648" height="178" key="GridCell.Tab.0.right" timestamp="1599767609647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
+    <state width="648" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
   </component>
 </project>
