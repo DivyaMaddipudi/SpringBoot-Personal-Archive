@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="839c1c43-8881-4931-93cc-f1ed0d7df088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Samsung/src/main/java/org/divya/model/Devices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07Store/src/main/java/ogr/divya/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07Store/src/main/java/ogr/divya/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung/src/main/java/org/divya/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung/src/main/java/org/divya/resource/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hJRnuKr3gGKSjildiwzxmYcfZ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Apple" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="839c1c43-8881-4931-93cc-f1ed0d7df088" name="Default Changelist" comment="" />
+      <created>1599727378497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599727378497</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599727461604">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599727461604" />
+  </component>
+</project>

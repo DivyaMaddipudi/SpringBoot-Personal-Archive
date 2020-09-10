@@ -1,10 +1,11 @@
-package org.divya.device;
+package org.divya.model;
 
 public class Device {
     String name;
     String type;
 
     public Device() {
+
     }
 
     public Device(String name, String type) {

@@ -9,19 +9,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/samsung")
-public class Samsung {
+@RequestMapping("/apple")
+public class Apple {
 
     @RequestMapping("/devices")
-    public Devices getDevices() {
-
+    public Devices getAppleDevices() {
+        Devices devicesList;
         List<Device> devices = new ArrayList<>();
-        devices.add(new Device("Note 9", "Smart phone"));
-        devices.add(new Device("S10", "Smart phone"));
-
-        Devices devicesList = new Devices(devices);
+        devices.add(new Device("Iphone 8", "Apple"));
+        devices.add(new Device("Iphone 8 pro", "Apple"));
+        devicesList = new Devices(devices);
         return devicesList;
     }
 }
-
-
