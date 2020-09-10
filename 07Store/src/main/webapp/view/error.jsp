@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Apple Store</title>
+<title>Error Page</title>
 </head>
 <body>
-${appleDevices}
+Something went wrong!
 </body>
 </html>

@@ -1,6 +1,9 @@
 package ogr.divya.store;
 
+import javax.websocket.server.PathParam;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,26 +18,37 @@ public class Store {
 		return "home";
 	}
 	
-	@RequestMapping("/samsung")
-	public ModelAndView samsung() {
-		ModelAndView modelAndView = new ModelAndView("samsung");
+	@RequestMapping("/{brandName}")
+	public ModelAndView samsung(@PathVariable("brandName") String brandName) {
 		
-		//connect with the microservice
-		RestTemplate restTemplate = new RestTemplate();
-		Devices result = restTemplate.getForObject("http://localhost:8082/samsung/devices", Devices.class);
+		ModelAndView modelAndView;
+		RestTemplate restTemplate;
+		Devices result;
 		
-		modelAndView.addObject("devices", result);
-		return modelAndView;
-	}
-	
-	@RequestMapping("/apple")
-	public ModelAndView apple() {
-		ModelAndView modelAndView = new ModelAndView("apple");
+		switch (brandName.toLowerCase()) {
+		case "samsung":
+			 modelAndView = new ModelAndView("viewDevices");
+			
+			//connect with the microservice
+			 restTemplate = new RestTemplate();
+			 result = restTemplate.getForObject("http://localhost:8082/samsung/devices", Devices.class);
+			
+			modelAndView.addObject("devices", result);
+			return modelAndView;
+			
+		case "apple":
+			 modelAndView = new ModelAndView("viewDevices");
+			
+			//connect with the microservice
+			 restTemplate = new RestTemplate();
+			 result = restTemplate.getForObject("http://localhost:8083/apple/devices", Devices.class);
+			
+			modelAndView.addObject("devices", result);
+			return modelAndView;
+			
+		default:
+			return new ModelAndView("redirect: /error");
+		}
 		
-		RestTemplate restTemplate = new RestTemplate();
-		Devices result = restTemplate.getForObject("http://localhost:8083/apple/devices", Devices.class);
-		
-		modelAndView.addObject("appleDevices", result);
-		return modelAndView;
 	}
 }
