@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/org/divya/client/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/test/java/org/divya/client/ClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\divya\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hKdgFkRcnXdSijKGBno8pKSlmK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Apple" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_261" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.divya.eurekaServer.EurekaServerApplication" />
+      <module name="eurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.divya.eurekaServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="" />
+      <created>1599763827866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599763827866</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599763971640">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599763971640" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1599764443256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599764443256" />
+    <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599764519418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="648" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599764519418" />
+    <state width="648" height="178" key="GridCell.Tab.0.center" timestamp="1599764519417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="648" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
+    <state width="648" height="178" key="GridCell.Tab.0.left" timestamp="1599764519417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="648" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
+    <state width="648" height="178" key="GridCell.Tab.0.right" timestamp="1599764519417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="648" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599764519417" />
+  </component>
+</project>

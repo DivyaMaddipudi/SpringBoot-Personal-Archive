@@ -31,7 +31,7 @@ public class Store {
 			
 			//connect with the microservice
 			 restTemplate = new RestTemplate();
-			 result = restTemplate.getForObject("http://localhost:8082/samsung/devices", Devices.class);
+			 result = restTemplate.getForObject("http://SAMSUNG/samsung/devices", Devices.class);
 			
 			modelAndView.addObject("devices", result);
 			return modelAndView;
@@ -41,7 +41,7 @@ public class Store {
 			
 			//connect with the microservice
 			 restTemplate = new RestTemplate();
-			 result = restTemplate.getForObject("http://localhost:8083/apple/devices", Devices.class);
+			 result = restTemplate.getForObject("http://APPLE/apple/devices", Devices.class);
 			
 			modelAndView.addObject("devices", result);
 			return modelAndView;
