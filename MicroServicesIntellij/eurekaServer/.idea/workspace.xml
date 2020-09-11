@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Samsung2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/SamsungApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/model/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/model/Devices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Samsung2/src/test/java/org/divya/SamsungApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../07Store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Store/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/services/AppleServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/AppleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/model/Devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Apple2/src/test/java/org/divya/AppleApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/resource/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/resource/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +44,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1hKdgFkRcnXdSijKGBno8pKSlmK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Apple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -80,6 +90,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599763971640">
       <screen x="0" y="0" width="1366" height="728" />
@@ -89,21 +102,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599764443256" />
-    <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599767609647">
+    <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599847846282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
-    <state width="648" height="178" key="GridCell.Tab.0.center" timestamp="1599767609647">
+    <state width="648" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599847846282" />
+    <state width="648" height="178" key="GridCell.Tab.0.center" timestamp="1599847846282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
-    <state width="648" height="178" key="GridCell.Tab.0.left" timestamp="1599767609647">
+    <state width="648" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599847846282" />
+    <state width="648" height="178" key="GridCell.Tab.0.left" timestamp="1599847846282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
-    <state width="648" height="178" key="GridCell.Tab.0.right" timestamp="1599767609647">
+    <state width="648" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599847846282" />
+    <state width="648" height="178" key="GridCell.Tab.0.right" timestamp="1599847846282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599767609647" />
+    <state width="648" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599847846282" />
+    <state x="368" y="9" key="SettingsEditor" timestamp="1599841063402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599841063402" />
   </component>
 </project>

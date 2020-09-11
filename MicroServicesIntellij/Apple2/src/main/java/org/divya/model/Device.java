@@ -1,38 +1,15 @@
 package org.divya.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "apple")
 public class Device {
-
-    @Id
-    @Column(name = "id")
-    int id;
-    @Column(name = "name")
     String name;
-    @Column(name = "type")
     String type;
 
     public Device() {
-
     }
 
-    public Device(int id, String name, String type) {
-        this.id = id;
+    public Device(String name, String type) {
         this.name = name;
         this.type = type;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -54,8 +31,7 @@ public class Device {
     @Override
     public String toString() {
         return "Device{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 '}';
     }
