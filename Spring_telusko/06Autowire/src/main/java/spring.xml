@@ -7,10 +7,10 @@
 	<property name="age" value="21"></property>
 	
 	</bean>
-	<!--
-	  
-		<bean id="com" class="com.divya.Autowire.Laptop"></bean>
 	
-	-->
+	  
+	<bean id="com" class="com.divya.Autowire.Laptop" primary="true"></bean>
+	
+	
 	<bean id="desktop" class="com.divya.Autowire.Desktop"></bean>
 </beans>
