@@ -39,6 +39,12 @@ public class HomeController {
 		model.addAttribute("result", repo.getOne(aid));
 		return "showAliens";
 	}
+	
+	@GetMapping(value = "getAlienByAname")
+	public String getAlienByAname(@RequestParam String aname, Model model) {
+		model.addAttribute("result", repo.findByAnameOrderByAidDesc(aname));
+		return "showAliens";
+	}
 
 	@GetMapping(value = "deleteAlien")
 	public String deleteAlien(@RequestParam int aid, Model model) {
