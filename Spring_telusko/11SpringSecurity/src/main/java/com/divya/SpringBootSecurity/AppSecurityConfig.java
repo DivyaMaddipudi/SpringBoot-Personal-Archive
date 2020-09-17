@@ -26,6 +26,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		
 		return provider;
 	}
+
+	
 	
 //	@Override
 //	@Bean
