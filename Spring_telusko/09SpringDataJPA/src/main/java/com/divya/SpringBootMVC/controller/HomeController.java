@@ -42,7 +42,8 @@ public class HomeController {
 	
 	@GetMapping(value = "getAlienByAname")
 	public String getAlienByAname(@RequestParam String aname, Model model) {
-		model.addAttribute("result", repo.findByAnameOrderByAidDesc(aname));
+		// model.addAttribute("result", repo.findByAnameOrderByAidDesc(aname)); // DSL
+		 model.addAttribute("result", repo.find(aname));
 		return "showAliens";
 	}
 
