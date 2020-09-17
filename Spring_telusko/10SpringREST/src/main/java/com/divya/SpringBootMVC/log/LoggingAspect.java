@@ -2,6 +2,7 @@ package com.divya.SpringBootMVC.log;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
@@ -21,15 +22,15 @@ public class LoggingAspect {
 		LOGGER.info("getAliens method called");
 	}
 
-	@After("execution(public * com.divya.SpringBootMVC.controller.HomeController.getAliens())")
+	@AfterReturning("execution(public * com.divya.SpringBootMVC.controller.HomeController.getAliens())")
 	public void logAfter() {
 		
 		LOGGER.info("getAliens method executed");
 	}
 	
-	@AfterReturning("execution(public * com.divya.SpringBootMVC.controller.HomeController.getAliens())")
-	public void logAfterReturning() {
+	@AfterThrowing("execution(public * com.divya.SpringBootMVC.controller.HomeController.getAliens())")
+	public void logException() {
 		
-		LOGGER.info("getAliens method executed successfully");
+		LOGGER.info("Issue");
 	}
 }
