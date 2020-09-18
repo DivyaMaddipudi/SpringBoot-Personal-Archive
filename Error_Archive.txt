@@ -1,0 +1,51 @@
+Caused by: java.lang.NoSuchMethodException: com.divya.ConstructorInjection.Alien.<init>()
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.getDeclaredConstructor(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:78)
+	... 14 more
+
+----------------------------------------------------------------------------------
+SPRING MVC
+----------------------------------------------------------------------------------
+javax.servlet.ServletException: Circular view path []: would dispatch back to the current handler URL [/] again. Check your ViewResolver setup! 
+								(Hint: This may be the result of an unspecified view, due to default view name generation.)
+
+
+
+------------------------------------------------------------------------------------
+SPRING REST
+------------------------------------------------------------------------------------
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor 
+				and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) 
+				(through reference chain: com.divya.SpringBootMVC.model.Alien$HibernateProxy$4QBn3KBK["hibernateLazyInitializer"])
+
+
+-------------------------------------------------------------------------------
+18-09-2020
+----------
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `ogr.divya.model.Devices` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+
+
+Solution :
+
+JsonMappingException: out of START_ARRAY token exception is thrown by Jackson object mapper as it's expecting an Object {} 
+whereas it found an Array [{}] in response.
+
+
+
+------------------------------------------------------------------------------
+
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2626b418]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:742) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[na:na]
+	
+Solution:
+	
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
