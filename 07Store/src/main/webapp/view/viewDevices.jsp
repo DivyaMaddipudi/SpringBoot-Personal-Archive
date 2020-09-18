@@ -14,6 +14,7 @@
 <tr>
 <th> Name </th>
 <th> Category </th>
+<th> Brand Name </th>
 </tr>
 
 <c:forEach var="device" items="${devices.devices}">
@@ -21,6 +22,7 @@
 <tr> 
 <td>${device.name}</td>
 <td>${device.type}</td> 
+<td>${devices.brandName}</td> 
 </tr>
 
 </c:forEach>

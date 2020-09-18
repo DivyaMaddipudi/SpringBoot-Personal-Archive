@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97b90fa6-3fc5-4d8c-a7ec-04eb306fe168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/divya/repository/SamsungRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/services/AppleServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/AppleApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/model/Device.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/model/Devices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/main/java/org/divya/resource/Apple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/src/test/java/org/divya/AppleApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/divya/model/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/divya/resource/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eurekaServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Store/src/main/webapp/view/viewDevices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Store/src/main/webapp/view/viewDevices.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,22 +98,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600433537936" />
-    <state width="1367" height="111" key="GridCell.Tab.0.bottom" timestamp="1600432440234">
+    <state width="1367" height="111" key="GridCell.Tab.0.bottom" timestamp="1600433832543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600432440234" />
-    <state width="1367" height="111" key="GridCell.Tab.0.center" timestamp="1600432440234">
+    <state width="1367" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600433832543" />
+    <state width="1367" height="111" key="GridCell.Tab.0.center" timestamp="1600433832543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600432440234" />
-    <state width="1367" height="111" key="GridCell.Tab.0.left" timestamp="1600432440233">
+    <state width="1367" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600433832543" />
+    <state width="1367" height="111" key="GridCell.Tab.0.left" timestamp="1600433832542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600432440233" />
-    <state width="1367" height="111" key="GridCell.Tab.0.right" timestamp="1600432440234">
+    <state width="1367" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600433832542" />
+    <state width="1367" height="111" key="GridCell.Tab.0.right" timestamp="1600433832543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600432440234" />
+    <state width="1367" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600433832543" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1599841241179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

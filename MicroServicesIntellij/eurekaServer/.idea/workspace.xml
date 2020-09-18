@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/repository/SamsungRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/services/AppleServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/model/Device.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/resource/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Store/src/main/webapp/view/viewDevices.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Store/src/main/webapp/view/viewDevices.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
