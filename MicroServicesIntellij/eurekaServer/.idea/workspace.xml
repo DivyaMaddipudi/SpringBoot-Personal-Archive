@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab40988-13cb-4204-ab3a-ec9eed21b4ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/repository/SamsungRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/AppleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/controller/AppleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/repository/AppleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple/src/main/java/org/divya/services/AppleServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apple2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/model/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/model/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/resource/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Samsung/src/main/java/org/divya/resource/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Samsung" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -77,10 +89,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599763971640" />
-    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1599764443256">
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1600431191067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599764443256" />
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600431191067" />
     <state width="648" height="178" key="GridCell.Tab.0.bottom" timestamp="1599848324806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

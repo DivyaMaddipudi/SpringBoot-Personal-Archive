@@ -1,8 +1,17 @@
 package org.divya.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "samsung")
 public class Device {
-    String name;
-    String type;
+
+    @Id
+    private int id;
+    private String name;
+    private String type;
 
     public Device() {
     }

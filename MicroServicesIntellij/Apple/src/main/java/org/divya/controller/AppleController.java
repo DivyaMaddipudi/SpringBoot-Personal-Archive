@@ -2,7 +2,7 @@ package org.divya.controller;
 
 import org.divya.model.Device;
 import org.divya.model.Devices;
-import org.divya.services.AppleServices;
+import org.divya.repository.AppleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,11 +14,15 @@ import java.util.List;
 public class AppleController {
 
     @Autowired
-    private AppleServices service;
+    private AppleRepository repo;
 
     @RequestMapping("/devices")
-    public List<Device> getAppleDevices() {
-            return service.getBlogs();
+    public Devices getAppleDevices() {
 
+        List<Device> devices = repo.findAll();
+
+        Devices deviceList = new Devices(devices);
+
+        return deviceList;
     }
 }

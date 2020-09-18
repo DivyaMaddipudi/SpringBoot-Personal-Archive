@@ -21,8 +21,7 @@ public class Device {
 
     }
 
-    public Device(int id, String name, String type) {
-        this.id = id;
+    public Device(String name, String type) {
         this.name = name;
         this.type = type;
     }
@@ -54,8 +53,7 @@ public class Device {
     @Override
     public String toString() {
         return "Device{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 '}';
     }
