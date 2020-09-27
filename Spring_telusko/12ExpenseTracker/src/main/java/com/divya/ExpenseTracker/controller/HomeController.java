@@ -1,6 +1,5 @@
 package com.divya.ExpenseTracker.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,11 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.divya.ExpenseTracker.model.Expense;
 import com.divya.ExpenseTracker.model.ExpenseTrackerModel;
@@ -41,9 +38,11 @@ public class HomeController {
 		return "addInitialAmount";
 	}
 
-	@RequestMapping(value = "/addExpense", method =  RequestMethod.POST)
+	@RequestMapping(value = "/addExpense", method = RequestMethod.POST)
 	public String addExpense(@ModelAttribute Expense exp, Model model) {
-		repo.save(exp);
+		if (exp.getAmount() != 0) {
+			repo.save(exp);
+		}
 
 		int income = expenseTracker.getIncome();
 		int expense = expenseTracker.getExpense();
@@ -51,26 +50,33 @@ public class HomeController {
 			income += exp.getAmount();
 			expenseTracker.setIncome(income);
 			System.out.println(expenseTracker.getIncome());
-			
+
 			int balance = exp.getAmount() + expenseTracker.getInitialAmount();
 			expenseTracker.setInitialAmount(balance);
 			model.addAttribute("amount", balance);
+		} else if (exp.getAmount() < 0) {
+			if (expenseTracker.getInitialAmount() + expense >= 0) {
+				expense += exp.getAmount();
+				expenseTracker.setExpense(expense);
+				System.out.println(expenseTracker.getIncome());
+
+				int balance = expenseTracker.getInitialAmount() + exp.getAmount();
+				expenseTracker.setInitialAmount(balance);
+				model.addAttribute("amount", balance);
+			} else {
+				return "error";
+			}
 		} else {
-			expense += exp.getAmount();
-			expenseTracker.setExpense(expense);
-			System.out.println(expenseTracker.getIncome());
-			
-			int balance = expenseTracker.getInitialAmount() + exp.getAmount();
-			expenseTracker.setInitialAmount(balance);
-			model.addAttribute("amount", balance);
+			model.addAttribute("incomeVal", income);
+			model.addAttribute("expense", expense);
+			return "addInitialAmount";
 		}
-		
+
 		model.addAttribute("incomeVal", income);
 		model.addAttribute("expense", expense);
 
 		List<Expense> expList = repo.findAll();
 		model.addAttribute("expList", expList);
-
 
 		return "addInitialAmount";
 	}
