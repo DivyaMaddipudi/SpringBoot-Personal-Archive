@@ -1,4 +1,4 @@
-package com.divya.SpringBootSecurity;
+package com.divya.ExpenseTracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

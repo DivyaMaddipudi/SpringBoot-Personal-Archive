@@ -8,6 +8,5 @@
 </head>
 <body>
 <h4>Insufficient balance</h4>
-
 </body>
 </html>
