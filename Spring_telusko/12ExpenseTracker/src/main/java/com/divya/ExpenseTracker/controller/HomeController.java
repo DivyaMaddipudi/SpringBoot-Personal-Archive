@@ -55,7 +55,7 @@ public class HomeController {
 			expenseTracker.setInitialAmount(balance);
 			model.addAttribute("amount", balance);
 		} else if (exp.getAmount() < 0) {
-			if (expenseTracker.getInitialAmount() + expense >= 0) {
+			if (expenseTracker.getInitialAmount() + exp.getAmount() >= 0) {
 				expense += exp.getAmount();
 				expenseTracker.setExpense(expense);
 				System.out.println(expenseTracker.getIncome());
