@@ -27,18 +27,18 @@
 
 <h3>List of items</h3>
 
-<c:forEach var="item" items="${expList}">
-<table>
+<table border="1" width="400px">
 <tr>
 <th>Name</th>
 <th>Amount</th>
 </tr>
+<c:forEach var="item" items="${expList}">
 <tr>
 <td>${item.getName()}</td>
 <td>${item.getAmount()}</td>
 </tr>
-</table>
 </c:forEach>
+</table>
 <hr>
 <h3> Add new expenses</h3>
 <form action="addExpense" method="post">
