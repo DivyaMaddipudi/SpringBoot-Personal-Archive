@@ -25,6 +25,7 @@ public class HomeController {
 	@Autowired
 	private ExpenseService expenseService;
 
+	
 	@GetMapping("/")
 	public String home() {
 		return "index";
@@ -34,6 +35,7 @@ public class HomeController {
 	public String addInitialAmount(@RequestParam("basicAmount") String amount, Model model) {
 		int amt = Integer.parseInt(amount);
 		expenseTracker.setInitialAmount(amt);
+		expenseTracker.setMonthlyAmount(amt);
 		model.addAttribute("amount", amt);
 		return "addInitialAmount";
 	}
@@ -100,14 +102,17 @@ public class HomeController {
 			income = expenseTracker.getIncome() - expenseAmount;
 			expenseTracker.setIncome(income);
 			
-			balance = expenseTracker.getInitialAmount() - expenseAmount;
+			System.out.println(expenseTracker.getInitialAmount());
+			balance = expenseTracker.getMonthlyAmount() - expenseTracker.getIncome();
 			expenseTracker.setInitialAmount(balance);
 
 		} else {
 			expense = expenseTracker.getExpense() - expenseAmount;
 			expenseTracker.setExpense(expense);
 			
-			balance = expenseTracker.getInitialAmount() - expenseAmount;
+			System.out.println(expenseTracker.getInitialAmount());
+			System.out.println(expenseTracker.getExpense()+"exp");
+			balance = expenseTracker.getMonthlyAmount() + expenseTracker.getExpense();
 			expenseTracker.setInitialAmount(balance);
 		}
 		model.addAttribute("amount", balance);
